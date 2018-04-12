@@ -1,0 +1,36 @@
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.movieElement{
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+  width: 90%;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-image{
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+@media (min-width: 700px) {
+  .movieList{
+    justify-content: space-between;
+  }
+  .movieElement{
+    width: 48%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .movieElement{
+    width: 30%;
+  }
+}

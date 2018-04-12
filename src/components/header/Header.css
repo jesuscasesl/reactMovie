@@ -1,0 +1,11 @@
+.header {
+  padding: 1rem;
+  background-color: #0ead52;
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.titleHeard {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: initial;
+}
